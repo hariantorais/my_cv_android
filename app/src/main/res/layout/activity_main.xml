@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:text="HARIANTO"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="60dp"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#ffffff"
@@ -38,8 +38,16 @@
             />
     </FrameLayout>
 
+    <WebView
+        android:id="@+id/wv_cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/f1_header"
+        android:layout_above="@+id/btn_hubungi"
+        />
+
     <Button
-        android:id="@+id/btnHubungi"
+        android:id="@+id/btn_hubungi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
