@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".PendidikanActivity"
+    android:orientation="vertical">
+
+    <TextView
+    android:id="@+id/text_pendidikan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="RIWAYAT PENDIDIKAN"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    android:textColor="#3F51B5"/>
+
+<!-- 2020-->
+    <TextView
+        android:id="@+id/text_2020"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2020 - Sekarang"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_kuliah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Universitas Siber Asia - Jakarta"
+        />
+
+<!--    2009 - 2012-->
+    <TextView
+        android:id="@+id/text_2009"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2009 - 2012"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_smk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SMK Negeri 1 Selong - Lombok Timur"
+        />
+
+<!--    2006 -->
+    <TextView
+        android:id="@+id/text_2006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2006 - 2009"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_smp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SMP Negeri 1 Suralga - Lombok Timur"
+        />
+
+<!--    2000-->
+    <TextView
+        android:id="@+id/text_2000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2000 - 2006"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_2000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SD Negeri 75 Surutanga - Palopo"
+        />
+</LinearLayout>
